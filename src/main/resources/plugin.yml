@@ -1,0 +1,16 @@
+name: ShiftyPunishTools
+version: @version@
+main: ssw.Main
+api-version: '1.13'
+prefix: ShiftyPunishTools
+load: STARTUP
+authors: [ShiftySnowWolf]
+description: A plugin tha makes punishing naughty players a breeze.
+website: https://github.com/ShiftySnowWolf/Shifty-Punish-Tools
+commands:
+  punish:
+    description: The main command for ShiftyPluginTools
+    aliases:
+      - pt
+    permission: shiftypunishtools.disciplinarycommittee
+    permission-message: You are not allowed to perform this command!
